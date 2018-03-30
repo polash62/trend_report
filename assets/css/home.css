@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2016, 1:31:13 PM
+    Author     : shahadat
+*/
+
+html,body{font-size:15px;height:100%}
+body{font-family:"Open Sans","Helvetica Neue","Helvetica","Arial",sans-serif;background:#FFF url(images/bg.png);margin:0;padding:0;color:#555;text-rendering:optimizeLegibility;min-width:320px}
+.ui.header{font-family:'Source Sans Pro',"Helvetica Neue","Helvetica","Arial",sans-serif}
+.ui.header,h1,h2{font-weight:400!important}
+h1.ui.header{font-size:3em}
+h4.ui.header,h5.ui.header,.ui.icon.header{font-weight:700!important}
+.ui.button{font-weight:400;text-decoration:none}
+a{color:#009FDA;text-decoration:none;-webkit-transition:color .3s ease;transition:color .3s ease}
+a:hover{color:#00BAFF}
+p a{font-weight:700}
+.menu .right.menu > .mobile.item{display:none}
+.ui.page.grid.segment{padding-top:3.5rem;padding-bottom:3.5rem}
+.masthead.segment{background-image:url(images/bg.jpg);-webkit-background-size:cover;background-size:cover;margin:0;padding-top:4rem;overflow:hidden;-webkit-box-shadow:0 -20px 10px 0 rgba(0,0,0,0.1) inset!important;box-shadow:0 -20px 10px 0 rgba(0,0,0,0.1) inset!important}
+.masthead.segment .column{position:relative}
+.masthead.segment .information{margin:3em 1em 1em 280px}
+.masthead.segment .information p{max-width:600px;margin:0 0 2em;font-size:1.2em}
+.masthead.segment h1.ui.header .sub{font-size:.7em}
+.masthead.segment .image{position:absolute;left:0;bottom:-110px}
+.overview .divided.grid .header + p{min-height:100px}
+.ui.shape .icon,.link.list .icon{margin:0;padding:0}
+.ui.cube.shape .side{background-color:transparent}
+@media only screen and (min-width : 600px) {
+    .profile-view{width:50%}
+}
+@media only screen and (max-width : 768px) {
+    .login-form-wrapper{width:100%}
+    .ui.page.grid.segment{padding-top:2rem;padding-bottom:2rem}
+    .menu .right.menu > .item{display:none}
+    .menu .right.menu > .mobile.item{display:block}
+    h1.ui.header{font-size:1.5em}
+    .masthead.segment{-webkit-background-size:auto;background-size:auto}
+    .masthead.segment .information{margin-left:190px}
+    .masthead.segment .image{bottom:-65px;width:150px}
+    .masthead.segment .button{font-size:1rem}
+    .overview .divided.grid .header .icon{font-size:1.5em}
+    .overview .divided.grid .header + p{min-height:0}
+    .masthead.segment .column{font-size:.7rem}
+    .masthead.segment .column p{display:none}
+    .selection.list .right.floated{display:none}
+}
+#home ul.appmenu,#home ul.appmenu li{display:inline;margin:0;padding:0;outline:none;list-style-type:none}
+.brac-logo{background:url(images/brac_logo.png) no-repeat center center;text-indent:-9999px;min-height:75px;width:211px;margin:1em 0;margin-left:-20px; display: block}
+.brac-logo-report{background:url(images/brac_logo_report.png) no-repeat center center;text-indent:-9999px;height:33px;width:100px}
+.desk-wrapper{display:inline-block;min-width:115px}
+.ui.inverted.teal.segment{background-image:url(images/test.svg);background-position:right bottom;background-size:100%}
+.desk{display:inline-block;padding:0 7px;background:#ff007b;color:#fff;border-radius:5px}
+.desk.a{padding-right:0;margin-right:0}
+.desk.b{border:1px solid #ccc}
+.rowgrey{background:#c5dbec}
+.rowgrey1{background:#CCC}
+.login-form-wrapper{width:50%;margin:0 auto;background:rgba(0,0,0,0.1);padding:2em;margin-bottom:2em;border-radius:5px;color:#fff;font-weight:600}
+.login-form-box{background:rgba(0,0,0,0.1);padding:1em;margin-bottom:2em;border-radius:5px;color:#fff;font-weight:600}
+.login-page-wrapper{background-image:url(images/crystal.png);background-repeat:no-repeat;background-position:left center;background-size:26%}
+.column1-page-wrapper{background-image:url(images/crystal.png);background-repeat:no-repeat;background-position:91% 3%;background-size:10%}
+.ui.table th.label{text-align:right}
+.ui.header.page-headder{padding: 30px 20px 10px; text-transform: uppercase; font-size: 1.5rem; color: grey; margin-bottom: 0}
+.view-table th{width:250px}
+table.ui.table{font-size:.85em}
+#transport-grid .ui.mini.button{margin-left:2px}
+#transport-grid .button-column,.button-column{white-space:nowrap}
+#transport-grid th{text-transform:uppercase;font-weight:600;text-shadow:1px 1px 0 #fff}
+.ui.items>.row>.item,.ui.items>.item{max-height:360px}
+.field select{width:99%}
+.ui.form .field label{font-weight:600;color:#777;text-transform:uppercase;font-size:.8em}
+.ui.form .field span label{color:#000}
+.ui.segment.home-block{ box-shadow:0 3px 1px #ccc;border:1px solid #ccc;background:#f9f9f9;transition:all .5s ease-in-out}
+.ui.segment.home-block.comm{min-height:206px}
+h2.ui.header.custom{padding:25px 0 10px;color:#888;text-shadow:0 2px 0 #eee}
+.ui.segment.home-block .ui.ribbon.label,.ui.segment.home-block .ui.image{transition:all .5s ease-in-out}
+.ui.segment.home-block .content{margin-top:-20px}
+.ui.segment.home-block:hover{box-shadow:none}
+.ui.segment.home-block img.ui.image{border:1px solid #ccc}
+.ui.form textarea,.ui.form input[type=text],.ui.form input[type=email],.ui.form input[type=date],.ui.form input[type=password],.ui.form input[type=number],.ui.form input[type=url],.ui.form input[type=tel]{border-color:#888;font-size:1em;color:#000;padding:.5em 1em;box-shadow:1px 1px 1px #ddd inset;background:#fff}
+div.ui.form .ui.black.dividing.header{border-bottom:1px solid #5C6166}
+.grid-view{padding:0}
+.loading{position:absolute;top:10%;left:50%;background:#fff url(images/ajax-loader.gif) no-repeat center center;border-radius:15px;font-size:11px;font-weight:700;display:inline-block;height:16px;border:3px solid #EEE;box-shadow:0 0 5px #999;width:16px;padding:5px}
+.grid-view .summary{margin:0 0 5px;text-align:right;display:inline-block;float:right;margin:-40px 0px 5px;text-transform:uppercase;font-size:12px;background:#eee;padding:5px 8px;font-weight:600; white-space:nowrap}
+.footer .ui.header{border-bottom:1px dotted #bbb;padding-bottom:10px;font-size:1em;text-transform:uppercase; color: #ff007b}
+.footer ul.ui.list,.footer ol.ui.list,.footer .ui.list{font-size:14px}
+ul.yiiPager a:link,ul.yiiPager a:visited{border:solid 1px #ccc;color:#0e509e;padding:5px 10px;text-decoration:none;background:#fff;border-radius:4px}
+ul.yiiPager .selected a{background:#ddd;color:#888}
+ul.yiiPager .hidden a{color:#888}
+.ui.message .header{font-size:1.1em}
+.ui.menu .item{font-size:.9rem;font-weight:400;text-transform:uppercase;white-space:nowrap}
+.menu-buttons a.button{margin-bottom:2px}
+.ui.list.feedback-info{display:inline-block;width:100%;padding-bottom:15px;margin-bottom:15px;border-bottom:1px dashed #aaa}
+.ui.list.feedback-info .item{width:50%;float:left;font-size:.8em;color:#333}
+.ui.list.feedback-info .item label{text-transform:uppercase;font-weight:700;color:#777;padding-right:10px}
+.ui.mini.feedback-options span label{text-transform:capitalize;color:#333}
+#sms-group-members-grid .summary{margin-top:-40px}
+.pager{font-size: 0.7em;font-weight: bold;text-transform: uppercase;color: gray}
+ul.yiiPager .selected a {color: #fff; background: teal; border: none}
+.ui.ribbon.label { padding-left: 1em; box-shadow: 4px 4px 0px #ddd }
+#weather {z-index: 99; font-size: 12px; text-transform: uppercase}
+#weather a { padding: 6px 15px; }
+.ui.basic.table th a { text-transform: uppercase; color: #333; font-size: 12px }
+.ui.vertical.menu .item > .label {float: none}
+.ui.secondary.menu .item, .ui.secondary.menu .item i.icon { color: #FF007B; opacity: 1 !important}

@@ -1,0 +1,15 @@
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+counter.txt
+
+/nbproject/private/
+nbproject/project.xml
+nbproject/project.properties
+
+.idea/

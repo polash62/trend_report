@@ -1,0 +1,717 @@
+footer.site-footer {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index:2;
+}
+#sidebar {
+    z-index: 3;
+}
+.nav-tabs {
+    border-bottom: 0px ;
+}
+
+#myTab li{
+    border-bottom: 1px solid #ddd;
+}
+#myTab .active{
+    border-bottom: 0px ;
+}
+table.table tr td,table.table tr th {
+    text-align: right;
+}
+.modal-title{
+    text-align: left;
+}
+.modal-body{
+    max-height:500px; 
+}
+.supplier_debit{
+    height: 27px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.delete-icon{
+    font-size:20px;
+    color:wheat;
+}
+.delete-icon:hover{
+    font-size:20px;
+    background-color: red;
+}
+
+.adv-table table.display thead th, table.display tfoot th{
+    background-color: #5b6e84;
+    color: white    
+}
+.table thead tr th{
+    border: 1px solid #bdb0b0;
+}
+.table_hand{
+    cursor: pointer;
+}
+
+
+/* ----------------------   For trend report page drop down menu ----------------------------   */
+.dropdown-menu>li
+{	position:relative;
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+  cursor:pointer;  
+  min-width: 210px;
+  font-size: 12px;
+}
+
+.dropdown-menu>li label {
+    cursor: pointer;
+}
+
+.itemfont {
+    font-family: Arial;
+}
+
+.dropdown-menu .sub-menu {
+    left: -112%;
+    position: absolute;
+    top: 0;
+    display:none;
+    margin-top: -1px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-left-color:#fff;
+    box-shadow:none;
+}
+
+.dropdown-menu .sub-menu {
+    max-width: 238px;
+    min-width: 238px;
+}
+
+.right-caret:after
+{	content:"";
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  border-left: 4px solid orange;
+  display: inline-block;
+  height: 0;
+  opacity: 0.8;
+  vertical-align: middle;
+  width: 0;
+  margin-left:5px;
+}
+.left-caret:after
+{	content:"";
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  border-right: 4px solid orange;
+  display: inline-block;
+  height: 0;
+  opacity: 0.8;
+  vertical-align: middle;
+  width: 0;
+  margin-left:5px;
+}
+
+
+
+/* -----------------------------  Custom style for trend report --------------------------- */
+#panelheadfixed {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+#headerformfixed {
+    position: fixed;
+    margin-top: 10px;
+    background: #fff;
+    width: 100%;
+    z-index: 2;
+}
+
+#reporttitlefixed {
+    position: fixed;
+    width: 100%;
+    margin-top: 87px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#trenddatatab {
+    padding-top: 136px;
+}
+
+
+#headertabdiv {
+    position: fixed;
+    width: 100%;
+    margin-top: 108px;
+}
+#headertabdiv table {
+    position: relative;
+    width: 84%;
+}
+
+#headertabdiv table thead tr th:nth-child(1) {
+    width: 3% !important;
+}
+#headertabdiv table thead tr th:nth-child(2) {
+    width: 9% !important;;
+}
+
+@media only screen and (max-width: 1152px) {
+    #headertabdiv table { 
+        width: 81%;
+    }
+}
+@media only screen and (min-width: 1153px) {
+    #headertabdiv table { 
+        width: 84%;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    #headertabdiv table { 
+        width: 88%;
+    }
+}
+@media only screen and (min-width: 1777px) {
+    #headertabdiv table { 
+        width: 90%;
+    }
+}
+
+/* Only for chrome */
+#trenddatatab table {
+    table-layout: fixed;
+    width: 100%;
+}
+/* ------ chrome end .......... */
+
+
+
+
+
+
+
+#trenddatatab table tbody tr td:nth-child(1) {
+    width: 23px !important;
+    font-size: 9px;
+}
+#trenddatatab table tbody tr td:nth-child(2) {
+    width: 11% !important;
+}
+
+tbody tr.head {
+    page-break-before: always;
+    page-break-inside: avoid;
+}
+
+#headerformfixed .form-control {
+    font-size: 12px;
+    height: 22px;
+    padding: 3px 3px;
+}
+
+#headerformfixed .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.collectiontab .panel-heading {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+}
+.collectiontab table thead {
+    background-color: #fff;
+    color: #000;
+}
+.collectiontab table tbody tr td {
+    text-align: center;
+}
+.collectiontab table thead tr th {
+    text-align: center;
+}
+/*
+.collectiontab table input {
+    margin-left: 90px;
+} */
+.visitstatusdiv .radio {
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+.visitstatusdiv .radio label {
+    margin-top: -5px;
+}
+
+#wizard-validation-form {
+    font-size: 14px;
+}
+.branchdataadderror {
+    display: none;
+    color: red;
+}
+.padding8px {
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.paddingleft1 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.globalmnyr .radio {
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.globalmnyr .radio label {
+    margin-top: 0px;
+}
+
+.locationname {
+    background-color: rgb(41,158,184);
+}
+.visithead {
+    background-color: rgb(1,134,138);
+}
+.cleanliness {
+    background-color: rgb(51,153,51);
+}
+.fettools {
+    background-color: rgb(73,167,157);
+}
+.compatibility {
+    background-color: rgb(1,134,138);
+}
+.participation {
+    background-color: rgb(51,153,51);
+}
+.usestory {
+    background-color: rgb(153,153,102);
+}
+
+#locationchoosemodal .dd-item, .dd-empty, .dd-placeholder {
+    font-size: 10px;
+}
+
+#locationchoosemodal .dd3-content {
+    height: 28px;
+    margin: 2px 0;
+}
+.detailreport-tab thead tr th {
+    padding: 10px;
+    border: 1px solid #bdb0b0;
+}
+.detailreport-tab tbody tr td {
+    padding: 3px;
+}
+
+.detailsh1bg {
+    background-color: rgb(221,235,247);
+    color: #000;
+}
+.detailsh2bg {
+    background-color: rgb(242,220,219);
+    color: #000;
+}
+.detailsh3bg {
+    background-color: rgb(242,242,242);
+    color: #000;
+}
+
+
+.csamonthtabc1 {
+    background-color:rgb(217,217,217);
+    color: #000;
+}
+.csamonthtabgood {
+    background-color:rgb(226,240,217);
+    color: #000;
+}
+.csamonthtabmoderate {
+    background-color:rgb(255,242,204);
+    color: #000;
+}
+.csamonthtabpoor {
+    background-color:rgb(253,231,234);
+    color: #000;
+}
+.csamonthtabtotal {
+    background-color: rgb(221,235,247);
+    color: #000;
+}
+#confirm_submit_button {
+    display: none;
+}
+@media screen {
+    .excel_titleshow {
+        display: none;
+    }
+}
+@media print {
+    .excel_titleshow {
+        display: block; 
+    } 
+}
+
+@media print {
+    .table_rowshowhide {
+        display: none; 
+    } 
+}
+
+
+
+/* for home page design */
+
+.ui.segment.home-block h1.ui.image {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.ui.rounded.images .image, .ui.rounded.images h1, .ui.rounded.image h1, .ui.rounded.image {
+    border-radius: 0.3125em;
+}
+
+.ui.segment.home-block h1 {
+    width: 112px;
+    height: 112px;
+    font-size: 22px;
+    line-height: 138px;
+    text-align: center;
+    color: #D10074;
+    margin: auto;
+}
+
+.ui.segment.home-block .content {
+    margin-top: -20px;
+}
+
+.ui.ribbon.label {
+    box-shadow: 4px 4px 0 #ddd;
+    padding-left: 1em;
+    font-size: 11px;
+    white-space: normal;
+    text-align: left;
+}
+
+.ui.segment.home-block {
+    /* background: #f9f9f9 none repeat scroll 0 0; */
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 1px #ccc;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+h1.ui.image {
+    /* background: rgba(0, 0, 0, 0) none repeat scroll 0 0; */
+    background: #F1F2F7 none repeat scroll 0 0;
+    display: block;
+}
+
+
+
+/* home notice design */
+.homepage-news {
+    background-color: rgb(199, 219, 226);
+    box-shadow: 0 0 10px #000000 inset;
+    height: 320px;
+    padding: 10px;
+}
+.homepage-news a {
+    color: #000000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.margintop5px {
+    margin-top: 16px;
+}
+
+.csa_globalreporttab tbody tr td {
+    padding: 3px;
+}
+
+.csa_globalreporttab tbody tr th {
+    padding: 3px 9px;
+}
+
+.headcol {
+    /* position: relative;  */
+}
+
+.locationnamebg {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #bdb0b0;
+}
+
+.notice_datetext {
+    margin-left: 20px;
+    font-size: 10px;
+    color: #A00000; 
+}
+
+.small-gapnotice {
+    height: 5px;
+}
+
+
+/* CSA question table td property */
+
+#csaquestion tr td {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.yellow_td {
+    background:  #E2B800;
+}
+.light_td {
+    background: #41CAC0;
+}
+.green_td {
+    background:  #78CD51;
+}
+#gridsummarytable a {
+    color: #000000;
+}
+a.detailssummarylink {
+    text-decoration: underline;   
+}
+
+#gridsummarytable a:hover {
+    text-decoration: none;
+    color:#800080;
+}
+
+.status_foo {
+    float: left;
+    width: 50px;
+    height: 13px;
+    margin:1px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+/*.........  For product trend page ..............  */
+
+.requiredfield {
+    color: red;
+}
+
+#setcriteria_table tr td {
+    text-align: center;
+}
+
+#setcriteria_table tr td.vertically_middle {  
+    vertical-align: middle;
+}
+
+#setcriteria_table tr td {
+    padding: 4px;
+}
+.catfieldtext {
+    width: 44px;
+    padding: 1px;
+    margin: 0px 5px;
+}
+.catfieldtext:focus {
+    border-color: #78CD51;
+}
+.marginleft10px {
+    margin-left: 5px;
+}
+
+#prequardata tbody tr td {
+    background-color: #E6E6FA;
+}
+#prequardata tbody tr td input[type="text"]{
+    background-color: #E6E6FA;
+}
+
+.amounttext {
+  /*  width: 95%;  */
+}
+
+.margintop3px {
+    margin-top: 3px;
+}
+
+
+/*.........  For product trend page ..............  */
+
+
+#reporttitlefixed_prod {
+    position: fixed;
+    width: 100%;
+    margin-top: 118px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#trenddatatab_prod {
+    padding-top: 167px;
+}
+
+#headertabdiv_prod {
+    position: fixed;
+    width: 100%;
+    margin-top: 140px;
+}
+#headertabdiv_prod table {
+    position: relative;
+    width: 84%;
+}
+
+#headertabdiv_prod table thead tr th:nth-child(1) {
+    width: 3% !important;
+}
+#headertabdiv_prod table thead tr th:nth-child(2) {
+    width: 9% !important;;
+}
+
+@media only screen and (max-width: 1152px) {
+    #headertabdiv_prod table { 
+        width: 81%;
+    }
+}
+@media only screen and (min-width: 1153px) {
+    #headertabdiv_prod table { 
+        width: 84%;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    #headertabdiv_prod table { 
+        width: 88%;
+    }
+}
+@media only screen and (min-width: 1777px) {
+    #headertabdiv_prod table { 
+        width: 90%;
+    }
+}
+
+/* Only for chrome */
+
+#trenddatatab_prod table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#trenddatatab_prod table tbody tr td:nth-child(1) {
+    width: 23px !important;
+    font-size: 9px;
+}
+#trenddatatab_prod table tbody tr td:nth-child(2) {
+    width: 11% !important;
+}
+
+
+
+
+
+#setcriteria_table tr:nth-child(even) {
+    background: #CCC;
+}
+#setcriteria_table tr:nth-child(odd) {
+    background: #FFF;
+}
+.setcriteria_table_head {
+    background:  #DDEBF7;
+    font-weight: bold;
+    font-size: 16px;
+}
+.setcriteria_tabbold {
+    font-weight: bold;
+}
+
+#graphtable1, #graphtable2, #graphtable3, #graphtable4, #graphtable5, #graphtable6 {  
+    border-radius: 5px !important;
+    background: rgb(168,168,168);
+    height: 150px;
+}
+
+#graphtable1 tr:first-child td, #graphtable2 tr:first-child td, #graphtable3 tr:first-child td, #graphtable4 tr:first-child td, #graphtable5 tr:first-child td, #graphtable6 tr:first-child td { 
+    border-top-left-radius: 5px !important;
+    -moz-border-radius-topleft: 5px !important;
+    -webkit-border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    -moz-border-radius-topright: 5px !important;
+    -webkit-border-top-right-radius: 5px !important; 
+}
+
+#graphtable1 td, #graphtable2 td, #graphtable3 td, #graphtable4 td, #graphtable5 td, #graphtable6 td {
+    vertical-align:middle;
+}
+
+#graphtable11, #graphtable21, #graphtable31, #graphtable41, #graphtable51, #graphtable61,
+#graphtable12, #graphtable22, #graphtable32, #graphtable42, #graphtable52, #graphtable62,
+#graphtable13, #graphtable23, #graphtable33, #graphtable43, #graphtable53, #graphtable63,
+#graphtable14, #graphtable24, #graphtable34, #graphtable44, #graphtable54, #graphtable64,
+#graphtable15, #graphtable25, #graphtable35, #graphtable45, #graphtable55, #graphtable65{  
+    border-radius: 5px !important;
+    background: rgb(168,168,168);
+    height: 150px;
+}
+
+#graphtable11 tr:first-child td, #graphtable21 tr:first-child td, #graphtable31 tr:first-child td, #graphtable41 tr:first-child td, #graphtable51 tr:first-child td, #graphtable61 tr:first-child td,
+#graphtable12 tr:first-child td, #graphtable22 tr:first-child td, #graphtable32 tr:first-child td, #graphtable42 tr:first-child td, #graphtable52 tr:first-child td, #graphtable62 tr:first-child td,
+#graphtable13 tr:first-child td, #graphtable23 tr:first-child td, #graphtable33 tr:first-child td, #graphtable43 tr:first-child td, #graphtable53 tr:first-child td, #graphtable63 tr:first-child td,
+#graphtable14 tr:first-child td, #graphtable24 tr:first-child td, #graphtable34 tr:first-child td, #graphtable44 tr:first-child td, #graphtable54 tr:first-child td, #graphtable64 tr:first-child td,
+#graphtable15 tr:first-child td, #graphtable25 tr:first-child td, #graphtable35 tr:first-child td, #graphtable45 tr:first-child td, #graphtable55 tr:first-child td, #graphtable65 tr:first-child td {
+    border-top-left-radius: 5px !important;
+    -moz-border-radius-topleft: 5px !important;
+    -webkit-border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    -moz-border-radius-topright: 5px !important;
+    -webkit-border-top-right-radius: 5px !important; 
+}
+
+
+#graphtable11 td, #graphtable21 td, #graphtable31 td, #graphtable41 td, #graphtable51 td, #graphtable61 td,
+#graphtable12 td, #graphtable22 td, #graphtable32 td, #graphtable42 td, #graphtable52 td, #graphtable62 td,
+#graphtable13 td, #graphtable23 td, #graphtable33 td, #graphtable43 td, #graphtable53 td, #graphtable63 td,
+#graphtable14 td, #graphtable24 td, #graphtable34 td, #graphtable44 td, #graphtable54 td, #graphtable64 td,
+#graphtable15 td, #graphtable25 td, #graphtable35 td, #graphtable45 td, #graphtable55 td, #graphtable65 td {
+    vertical-align:middle;
+}
+
+#dash_noofitemtab tr td { text-align: center; background: #2A3542; color: #FFFF00; }
+#dash_noofitemtab tr td:nth-child(odd) { font-weight: bold; color:#fff; }
+.hasTooltip span {
+    display: none;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+}
+.hasTooltip:hover span {
+    display: block;
+    position: absolute;
+    background-color: #FFFFCC;
+    border: 1px solid #CCC;
+    margin: -22px 0px 0px 30px;
+}
+
+
+.print_footer {
+    display: none;
+}
+@media print {
+    .print_footer {
+        display:block;
+        page-break-after: always;
+    }
+}
+
+h6.count {
+    text-align: left;
+    padding-left: 20px;
+}
